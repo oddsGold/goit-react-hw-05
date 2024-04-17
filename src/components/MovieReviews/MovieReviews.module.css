@@ -1,0 +1,16 @@
+.reviews div p {
+    line-height: 1.2;
+}
+.reviews div p:first-child{
+    font-weight: bold;
+}
+.reviews div p:first-child:before {
+    content: "\27A4";
+}
+.reviews div p:last-child {
+    padding: 25px 0;
+}
+.no-reviews {
+    font-size: 20px;
+    font-weight: bold;
+}

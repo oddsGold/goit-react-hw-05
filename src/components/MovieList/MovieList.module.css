@@ -1,0 +1,8 @@
+.list {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+.list li{
+    font-size: 18px;
+    padding: 3px 0;
+}

@@ -1,0 +1,52 @@
+.details {
+    padding: 25px 0;
+}
+.details-row{
+    display: inline-flex;
+    column-gap: 50px;
+}
+
+.details .details-row .details-row-description {
+    padding: 50px 0;
+}
+.details .details-row .details-row-description h2 {
+    font-size: 26px;
+}
+.details .details-row .details-row-description p {
+    padding: 15px 0;
+}
+.details .details-row .details-row-description p > span {
+    padding-right: 10px;
+    line-height: 1.2;
+}
+.details .details-row .details-row-description p > span:first-child {
+    display: flex;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.details-row-img {
+    max-width: 350px;
+}
+
+.details-row-img img {
+    width: 100%;
+}
+.add-info {
+    margin: 50px 0;
+    padding: 15px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.add-info p {
+    padding-bottom: 10px;
+}
+.add-info a {
+    display: block;
+    padding: 5px 0;
+}
+.back-button {
+    display: block;
+    margin: 20px 0;
+    padding: 5px 10px;
+}
