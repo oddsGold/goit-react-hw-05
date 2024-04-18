@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header.jsx";
 
 const HomePage = () => {
 
-    const [movies, setMovies] = useState({})
+    const [movies, setMovies] = useState([])
 
     useEffect(() => {
         const fetchData = async () => {
