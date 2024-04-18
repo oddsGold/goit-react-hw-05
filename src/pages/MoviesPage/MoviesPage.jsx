@@ -6,7 +6,7 @@ import Header from "../../components/Header/Header.jsx";
 
 const MoviesPage = () => {
     const [searchItem, setSearchItem] = useState("");
-    const [movies, setMovies] = useState(() =>  localStorage.getItem("searchResults") ? JSON.parse(localStorage.getItem("searchResults")) : []);
+    const [movies, setMovies] = useState([]);
     const [searchParams, setSearchParams] = useSearchParams();
 
     useEffect(() => {
