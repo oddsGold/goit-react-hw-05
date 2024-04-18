@@ -29,10 +29,7 @@ const MoviesPage = () => {
     const handleSearch = async (e) => {
         e.preventDefault();
         try {
-            setMovies([]);
             setSearchParams({ query: searchItem });
-            const data = await searchMoviesQuery(searchItem);
-            setMovies(data.results);
         } catch (error) {
             console.error(error);
         }
